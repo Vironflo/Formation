@@ -1,0 +1,34 @@
+{
+  "application": "Colibri",
+  "version": "1.8.3",
+  "environnement": "production",
+  "api": {
+    "baseUrl": "https://api.colibri.example/v1",
+    "timeoutMs": 3000,
+    "retries": 0,
+    "cacheSeconds": 0
+  },
+  "facturation": {
+    "devisesAcceptees": ["EUR", "GBP", "USD"],
+    "tauxChangeSource": "temps-reel",
+    "numeroTvaObligatoire": false,
+    "formatExport": "csv-legacy",
+    "arrondi": "tronque"
+  },
+  "email": {
+    "expediteur": "no-reply@colibri.example",
+    "smtpHost": "smtp.colibri.example",
+    "smtpPort": 25,
+    "tls": false
+  },
+  "logs": {
+    "niveau": "error",
+    "retentionJours": 3,
+    "inclureDonneesClient": true
+  },
+  "fonctionnalites": {
+    "signatureElectronique": false,
+    "exportComptable": true,
+    "modeMaintenance": false
+  }
+}

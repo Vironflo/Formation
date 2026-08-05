@@ -1,0 +1,43 @@
+2025-03-12 08:00:03 INFO  [api] Demarrage du service v1.8.3
+2025-03-12 08:00:04 INFO  [db]  Connexion etablie pool=10
+2025-03-12 08:14:22 INFO  [api] GET /v1/factures 200 84ms user=1042
+2025-03-12 08:14:51 INFO  [api] GET /v1/factures 200 91ms user=1042
+2025-03-12 08:22:10 WARN  [db]  Requete lente 2340ms table=factures
+2025-03-12 08:31:44 INFO  [api] POST /v1/factures 201 210ms user=2201
+2025-03-12 09:02:17 ERROR [export] Echec export comptable client=Atlas Group motif=numero_tva_absent
+2025-03-12 09:02:17 INFO  [api] GET /v1/export 200 12ms user=2201
+2025-03-12 09:15:38 WARN  [db]  Requete lente 3120ms table=factures
+2025-03-12 09:44:02 ERROR [fx]   Taux de change indisponible devise=GBP fallback=cache
+2025-03-12 10:01:55 INFO  [api] GET /v1/clients 200 45ms user=1042
+2025-03-12 10:12:09 ERROR [export] Echec export comptable client=Meridian Ltd motif=numero_tva_absent
+2025-03-12 10:12:09 INFO  [api] GET /v1/export 200 9ms user=1042
+2025-03-12 10:38:41 WARN  [db]  Requete lente 4890ms table=factures
+2025-03-12 11:05:16 ERROR [facture] Avoir duplique facture=FA-2025-0412 client=Colibri SA
+2025-03-12 11:05:17 ERROR [facture] Avoir duplique facture=FA-2025-0412 client=Colibri SA
+2025-03-12 11:22:33 INFO  [api] POST /v1/avoirs 201 305ms user=3310
+2025-03-12 12:00:00 INFO  [cron] Tache nocturne ignoree raison=verrou_present
+2025-03-12 13:14:07 ERROR [fx]   Taux de change indisponible devise=USD fallback=cache
+2025-03-12 13:41:52 WARN  [db]  Requete lente 5210ms table=factures
+2025-03-12 14:03:28 ERROR [export] Echec export comptable client=Atlas Group motif=numero_tva_absent
+2025-03-12 14:19:44 INFO  [api] GET /v1/factures 200 1840ms user=2201
+2025-03-12 14:52:11 ERROR [db]  Timeout connexion pool epuise attente=3001ms
+2025-03-12 14:52:12 ERROR [db]  Timeout connexion pool epuise attente=3002ms
+2025-03-12 14:52:14 ERROR [db]  Timeout connexion pool epuise attente=3004ms
+2025-03-12 14:52:19 ERROR [api] GET /v1/factures 500 3009ms user=1042
+2025-03-12 14:53:02 INFO  [db]  Pool recycle connexions=10
+2025-03-12 15:30:19 WARN  [db]  Requete lente 6740ms table=factures
+2025-03-12 16:11:03 ERROR [facture] Avoir duplique facture=FA-2025-0455 client=Novatek
+2025-03-12 16:44:27 INFO  [api] GET /v1/factures 200 122ms user=3310
+2025-03-12 17:02:50 ERROR [export] Echec export comptable client=Meridian Ltd motif=numero_tva_absent
+2025-03-12 17:30:00 INFO  [api] Arret propre du service
+2025-03-13 08:00:02 INFO  [api] Demarrage du service v1.8.3
+2025-03-13 08:19:33 WARN  [db]  Requete lente 7120ms table=factures
+2025-03-13 09:07:41 ERROR [fx]   Taux de change indisponible devise=GBP fallback=cache
+2025-03-13 09:55:18 ERROR [export] Echec export comptable client=Atlas Group motif=numero_tva_absent
+2025-03-13 10:41:06 ERROR [facture] Avoir duplique facture=FA-2025-0478 client=Colibri SA
+2025-03-13 11:28:52 WARN  [db]  Requete lente 8340ms table=factures
+2025-03-13 12:00:00 INFO  [cron] Tache nocturne ignoree raison=verrou_present
+2025-03-13 14:15:39 ERROR [db]  Timeout connexion pool epuise attente=3001ms
+2025-03-13 14:15:40 ERROR [api] GET /v1/factures 500 3005ms user=2201
+2025-03-13 16:22:14 ERROR [export] Echec export comptable client=Meridian Ltd motif=numero_tva_absent
+2025-03-13 17:30:00 INFO  [api] Arret propre du service

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "CMD-1001",
+    "pays": "FR",
+    "devise": "EUR",
+    "tvaIntra": null,
+    "compte": { "type": "direct", "solde": 0 },
+    "promo": null,
+    "lignes": [{ "ref": "PRO", "qte": 3 }]
+  },
+  {
+    "id": "CMD-1002",
+    "pays": "BE",
+    "devise": "EUR",
+    "tvaIntra": "BE0123456789",
+    "compte": { "type": "revendeur", "solde": 0 },
+    "promo": { "code": "PRINTEMPS", "mode": "pct", "val": 0.1, "exp": "2025-06-30" },
+    "lignes": [{ "ref": "STD", "qte": 60 }, { "ref": "SUP", "qte": 1 }]
+  },
+  {
+    "id": "CMD-1003",
+    "pays": "US",
+    "devise": "USD",
+    "tvaIntra": null,
+    "compte": { "type": "partenaire", "solde": -320.5 },
+    "promo": { "code": "EXPIRE", "mode": "fixe", "val": 200, "exp": "2024-12-31" },
+    "lignes": [{ "ref": "FRM", "qte": 2 }]
+  },
+  {
+    "id": "CMD-1004",
+    "pays": "FR",
+    "devise": "GBP",
+    "tvaIntra": "FR12345678901",
+    "compte": null,
+    "promo": null,
+    "lignes": [{ "ref": "LICENCE_INCONNUE", "qte": 5 }]
+  },
+  {
+    "id": "CMD-1005",
+    "pays": "LU",
+    "devise": "EUR",
+    "tvaIntra": "LU12345678",
+    "compte": { "type": "revendeur", "solde": 0 },
+    "promo": { "code": "CUMUL", "mode": "pct", "val": 0.3, "exp": "2026-12-31" },
+    "lignes": [{ "ref": "PRO", "qte": 100 }]
+  }
+]

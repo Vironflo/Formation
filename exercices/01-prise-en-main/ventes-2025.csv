@@ -1,0 +1,29 @@
+date,client,produit,quantite,prix_unitaire,devise,statut
+2025-01-08,Dupont SARL,Licence Pro,3,490,EUR,payee
+2025-01-14,Meridian Ltd,Licence Pro,10,490,GBP,payee
+2025-01-22,Colibri SA,Support annuel,1,2400,EUR,payee
+2025-02-03,Dupont SARL,Formation,2,1200,EUR,impayee
+2025-02-11,Novatek,Licence Standard,25,190,EUR,payee
+2025-02-19,Meridian Ltd,Support annuel,1,2400,GBP,payee
+2025-02-28,Colibri SA,Licence Pro,5,490,EUR,annulee
+2025-03-05,Atlas Group,Licence Pro,8,490,USD,payee
+2025-03-12,Novatek,Formation,1,1200,EUR,payee
+2025-03-18,Dupont SARL,Licence Standard,12,190,EUR,payee
+2025-03-25,,Licence Pro,4,490,EUR,payee
+2025-04-02,Atlas Group,Support annuel,1,2400,USD,impayee
+2025-04-09,Colibri SA,Formation,3,1200,EUR,payee
+2025-04-16,Meridian Ltd,Licence Standard,40,190,GBP,payee
+2025-04-23,Novatek,Licence Pro,6,490,EUR,payee
+2025-05-07,Dupont SARL,Support annuel,1,2400,EUR,payee
+2025-05-14,Atlas Group,Licence Standard,15,190,USD,annulee
+2025-05-21,Colibri SA,Licence Pro,2,490,EUR,payee
+2025-05-28,Novatek,Support annuel,1,2400,EUR,impayee
+2025-06-04,Meridian Ltd,Formation,4,1200,GBP,payee
+2025-06-11,Dupont SARL,Licence Pro,7,490,EUR,payee
+2025-06-18,Atlas Group,Licence Pro,3,490,USD,payee
+2025-06-25,Colibri SA,Licence Standard,20,190,EUR,payee
+2025-07-02,Novatek,Licence Pro,9,490,EUR,payee
+2025-07-09,Meridian Ltd,Licence Pro,5,490,GBP,impayee
+2025-07-16,Atlas Group,Formation,2,1200,USD,payee
+2025-07-23,Dupont SARL,Licence Standard,30,190,EUR,payee
+2025-07-30,Colibri SA,Support annuel,1,2400,EUR,payee
