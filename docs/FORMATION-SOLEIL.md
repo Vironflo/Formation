@@ -1,7 +1,7 @@
 # Formation Soleil — Claude Code
 
 **Apprenant :** Jérôme
-**Volume :** 15 h, réparties sur 5 sessions de 3 h
+**Volume :** 15 h, réparties sur 5 sessions (2 h + 3 h + 3 h + 3 h + 4 h)
 **Prérequis :** un ordinateur Windows, une adresse mail, rien d'autre
 
 ---
@@ -11,7 +11,7 @@
 À mettre à jour en fin de chaque séance. C'est ce qui remplace la mémoire de ce qu'on
 a fait la fois d'avant — trois semaines entre deux sessions, ça s'oublie.
 
-**Session 1 — Environnement de travail (3 h)** — date : ______ — temps réel : ____ h
+**Session 1 — Environnement de travail (2 h)** — date : ______ — temps réel : ____ h
 
 - [ ] 1.1 VS Code installé, terminal repéré
 - [ ] 1.2 Git installé, identité configurée
@@ -42,11 +42,11 @@ a fait la fois d'avant — trois semaines entre deux sessions, ça s'oublie.
 - [ ] 4.4 Relire un diff ligne à ligne
 - [ ] 4.5 Travailler sur une branche
 
-**Session 5 — Automatiser et configurer (3 h)** — date : ______ — temps réel : ____ h
+**Session 5 — Automatiser et configurer (4 h)** — date : ______ — temps réel : ____ h
 
 - [ ] 5.1 Automatiser une tâche répétitive, simulation d'abord
 - [ ] 5.2 Lire des logs comme un enquêteur
-- [ ] 5.3 BrainSync : écrire ses règles une fois
+- [ ] 5.3 Le cerveau : écrire ses règles une fois
 - [ ] 5.4 Fabriquer une commande personnalisée
 - [ ] 5.5 Installation sur le projet réel de Jérôme
 
@@ -67,12 +67,12 @@ les notes. Ce qui ne ressort pas à ce moment-là n'est pas acquis, et on le ref
 
 ---
 
-# SESSION 1 — Environnement de travail (3 h)
+# SESSION 1 — Environnement de travail (2 h)
 
 Le module le plus ingrat et le plus important. Tout le reste en dépend.
 On ne clôt pas la session tant que les cinq points ne sont pas verts.
 
-## 1.1 — Visual Studio Code (25 min)
+## 1.1 — Visual Studio Code (15 min)
 
 **Pourquoi VS Code plutôt qu'autre chose ?**
 Ce n'est pas l'éditeur le plus puissant. C'est celui qui s'efface le mieux : il ouvre
@@ -91,7 +91,7 @@ le terminal et modifie les fichiers du dossier. VS Code sert à voir ce qui se p
 **Point d'ancrage :** le terminal n'est pas un truc d'expert. C'est une fenêtre où on
 tape des phrases au lieu de cliquer. On va y passer les 15 heures.
 
-## 1.2 — Git : comprendre avant d'installer (40 min)
+## 1.2 — Git : comprendre avant d'installer (30 min)
 
 **Le problème que Git résout.**
 Jérôme modifie un fichier. Trois jours plus tard, ça ne marche plus. Qu'est-ce qui a
@@ -122,7 +122,7 @@ Si le résultat ne convient pas, on annule tout. C'est le filet.
 **Point d'ancrage :** un commit n'est pas une sauvegarde de fichier. C'est une sauvegarde
 de l'état du projet entier. On peut y revenir des mois après.
 
-## 1.3 — Le dépôt GitHub (50 min)
+## 1.3 — Le dépôt GitHub (35 min)
 
 **Pourquoi GitHub en plus de Git ?**
 Git vit sur la machine. Si le disque lâche, tout est perdu. GitHub est la copie en ligne :
@@ -153,7 +153,7 @@ courant, pas une faute.
 vie du projet. Le `pull` sert dès qu'on est plus d'un, ou dès qu'on travaille sur
 deux machines.
 
-## 1.4 — Claude Code (25 min)
+## 1.4 — Claude Code (20 min)
 
 **À faire :**
 
@@ -170,7 +170,7 @@ commandes, et écrit ses modifications sur le disque.
 **Point d'ancrage :** c'est aussi ce qui le rend risqué. D'où le module 1.2.
 Le filet d'abord, l'IA ensuite.
 
-## 1.5 — Se repérer dans un projet inconnu (40 min)
+## 1.5 — Se repérer dans un projet inconnu (20 min)
 
 Dans une session neuve, poser successivement :
 
@@ -375,7 +375,7 @@ un peu large avec l'IA, c'est là que ça se passe. Le travail qui marche reste 
 
 ---
 
-# SESSION 5 — Automatiser et configurer (3 h)
+# SESSION 5 — Automatiser et configurer (4 h)
 
 ## 5.1 — Automatiser une tâche répétitive (40 min)
 
@@ -403,7 +403,7 @@ pas ponctuellement. Les blocages qui suivent en sont la conséquence, pas la cau
 **Point d'ancrage :** classer par cause plutôt que par ordre d'apparition change
 complètement le diagnostic. C'est une consigne à donner explicitement.
 
-## 5.3 — BrainSync : écrire ses règles une fois (40 min)
+## 5.3 — Le cerveau : écrire ses règles une fois (50 min)
 
 ### Le problème
 
@@ -451,7 +451,7 @@ une même question dans deux sessions neuves, avec et sans le profil, et compare
 **Point d'ancrage :** la valeur n'est pas dans l'outil, elle est dans les règles.
 Une règle bien écrite s'applique cent fois sans qu'on y repense.
 
-## 5.4 — Fabriquer une commande personnalisée (30 min)
+## 5.4 — Fabriquer une commande personnalisée (40 min)
 
 Partir d'une tâche que Jérôme refait chaque semaine. La formuler une fois correctement,
 puis l'enregistrer comme commande réutilisable.
@@ -463,7 +463,7 @@ puis l'enregistrer comme commande réutilisable.
 **Point d'ancrage :** une commande personnalisée, c'est une consigne qu'on n'a plus
 jamais à retaper. C'est le même principe que le profil, appliqué à une tâche précise.
 
-## 5.5 — Installation sur le projet réel (40 min)
+## 5.5 — Installation sur le projet réel (1 h 20)
 
 Plus de consigne écrite. On ouvre le vrai dépôt de Jérôme et on installe :
 
