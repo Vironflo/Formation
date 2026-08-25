@@ -29,6 +29,7 @@ Tout ce qui est ici est jetable : on casse, on répare, on recommence.
   - `01-PARCOURS-APPRENTISSAGE.md` — les 7 modules de 2h, découpés et séquencés
   - `02-AIDE-MEMOIRE.md` — antisèche : commandes, raccourcis, réflexes
   - `03-EXERCICES.md` — consignes détaillées, exercice par exercice
+  - `04-A-TRANSMETTRE-JEROME.md` — suivi des livrables et du calendrier client
 - `exercices/`
   - `01-prise-en-main/` — premiers pas, lecture de fichiers, contexte
   - `02-analyse-code/` — code legacy non commenté à comprendre

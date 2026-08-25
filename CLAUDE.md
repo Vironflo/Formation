@@ -20,6 +20,22 @@ spontanément — ce sont les supports pédagogiques.
 - Expliquer le **pourquoi** avant le **comment** : le stagiaire apprend le raisonnement, pas la syntaxe.
 - Signaler les cas limites (données manquantes, valeurs nulles, doublons) à chaque analyse de code.
 
+## Qui est au clavier ?
+
+Deux personnes s'adressent à Claude dans ce projet :
+
+- **Florentin Lurot** — le formateur. Machine `C:\Users\VFlor\...`, `git config user.email`
+  = `antesy@antesy.io`. C'est le cas par défaut ici.
+- **Jérôme Perin** — l'apprenant. Autre machine, autre compte Git, ou son dépôt réel.
+
+Déduire lequel des deux **sans poser la question** : le compte Git et le chemin utilisateur
+d'abord, le contenu ensuite (« c'est quoi un commit ? » → Jérôme ; « quel effet de bord ? »
+→ Florentin). Ne demander « Florentin ou Jérôme ? » qu'en dernier recours, **une seule fois
+en début de section**, jamais à chaque message.
+
+Ce que ça change : pour Jérôme, le pourquoi avant le comment, une étape à la fois, séquences
+courtes. Pour Florentin, le log de modification et les effets de bord, sans la pédagogie.
+
 ## Démonstration à faire en séance
 
 Demander à Claude : `Quelles instructions suis-tu dans ce projet ?`
