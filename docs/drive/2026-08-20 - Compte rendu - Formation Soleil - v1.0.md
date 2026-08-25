@@ -12,13 +12,16 @@
 
 ## 1. Les dates
 
-| Séance | Date | Durée | Sujet |
-|---|---|---|---|
-| 1 | Mardi 25 août 2026 | 2 h | Environnement de travail |
-| 2 | Mercredi 26 août 2026 | 3 h | Lire et comprendre du code |
-| 3 | Mercredi 2 septembre 2026 | 3 h | Débug |
-| 4 | Jeudi 3 septembre 2026 | 3 h | Modifier sans casser |
-| 5 | Samedi 5 septembre 2026 | 4 h | Automatiser et configurer |
+- **Séance 1** — mardi 25 août 2026 — 2 h
+  - Environnement de travail
+- **Séance 2** — mercredi 26 août 2026 — 3 h
+  - Lire et comprendre du code
+- **Séance 3** — mercredi 2 septembre 2026 — 3 h
+  - Débug
+- **Séance 4** — jeudi 3 septembre 2026 — 3 h
+  - Modifier sans casser
+- **Séance 5** — samedi 5 septembre 2026 — 4 h
+  - Automatiser et configurer
 
 15 heures au total. Plage horaire 14 h - 22 h, on cale l'heure exacte sur WhatsApp la veille.
 
